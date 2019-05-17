@@ -1,9 +1,9 @@
 encoding: utf-8
-port: 5678
-host: 0.0.0.0
+port: 4000
+host: 127.0.0.1
 
-title: Fooleap's Blog
-keywords: [fooleap, 前端, 跑步, 潮汕]
+title: 阿川的个人博客
+keywords: [阿川, 后端, 摄影, 编程, 指弹吉他]
 description: 'A foolish man could not always lose!'
 
 exclude: [webpack.config.js, package.json, Gemfile, Gemfile.lock, src, node_modules]
@@ -17,14 +17,31 @@ kramdown:
   auto_id_prefix: 'id-'
   toc_levels:     '2,3'
   smart_quotes:   lsquo,rsquo,ldquo,rdquo
-emoji:
-    src: 'https://api.fooleap.org'
-paginate: 10
-repository: fooleap/fooleap.github.io
 
+paginate: 10
+
+# 博客作者相关
+author:
+  name: Hong-hai zhang
+  email: achuan@achuan.io
+  link: https://achuan.io
+  Qzone: https://user.qzone.qq.com/2434929041
+  github: https://github.com/achuanya
+  github_name: achuanya
+  github_repo: https://github.com/achuanya/achuanya.github.io
+  github_sub: https://github.com/achuanya/achuanya.github.io/subscription
+
+# 资源
+assets:
+  css: /assets/css/
+  js: /assets/js/
+  images: /assets/images/
+  article: /assets/article/
+  api: https://api.achuan.io/
+  repo: achuanya/achuanya.github.io
+
+# Disqus
 nickname: fooleap
-home: https://blog.fooleap.org
-api: https://api.fooleap.org
-IMG_PATH: //source.fooleap.org
-tongji: 'fa7ec982118ebd236663169678264582'
-analytics: 'UA-16717905-7'
+blog: https://achuan.io
+api: https://api.achuan.io
+# IMG_PATH: //source.fooleap.org
